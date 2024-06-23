@@ -93,6 +93,8 @@ hr {
   justify-content: space-between;
   align-items: center;
   margin: 3rem 0 0 0;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .card-footer img {
@@ -107,4 +109,8 @@ hr {
   text-align: center;
   font-size: 2rem;
   color: #fff;
+}
+.card-footer p {
+  color: #fff;
+  font-size: 20px;
 }
