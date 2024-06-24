@@ -27,7 +27,7 @@ async function customFetcher<T>(url: string, options?: RequestInit): Promise<T> 
 
     const data = await response.json();
 
-    return data
+    return data;
 
 
 }
